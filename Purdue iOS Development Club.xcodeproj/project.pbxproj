@@ -13,6 +13,7 @@
 		C7A2CABE1E5E526D00981D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A2CABD1E5E526D00981D77 /* Assets.xcassets */; };
 		C7A2CAC11E5E526D00981D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A2CABF1E5E526D00981D77 /* LaunchScreen.storyboard */; };
 		C7A2CAC91E5E52E600981D77 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A2CAC81E5E52E600981D77 /* Home.storyboard */; };
+		C7A2CAD11E5E551C00981D77 /* Directory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A2CAD01E5E551C00981D77 /* Directory.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C7A2CAC01E5E526D00981D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7A2CAC21E5E526D00981D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7A2CAC81E5E52E600981D77 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		C7A2CAD01E5E551C00981D77 /* Directory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Directory.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		C7A2CAB51E5E526D00981D77 /* Purdue iOS Development Club */ = {
 			isa = PBXGroup;
 			children = (
+				C7A2CACF1E5E551000981D77 /* Directory */,
 				C7A2CACB1E5E536500981D77 /* Home */,
 				C7A2CACA1E5E535C00981D77 /* Login */,
 				C7A2CAB61E5E526D00981D77 /* AppDelegate.swift */,
@@ -105,6 +108,14 @@
 			children = (
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		C7A2CACF1E5E551000981D77 /* Directory */ = {
+			isa = PBXGroup;
+			children = (
+				C7A2CAD01E5E551C00981D77 /* Directory.storyboard */,
+			);
+			name = Directory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7A2CAC11E5E526D00981D77 /* LaunchScreen.storyboard in Resources */,
+				C7A2CAD11E5E551C00981D77 /* Directory.storyboard in Resources */,
 				C7A2CABE1E5E526D00981D77 /* Assets.xcassets in Resources */,
 				C7A2CABC1E5E526D00981D77 /* Login.storyboard in Resources */,
 				C7A2CAC91E5E52E600981D77 /* Home.storyboard in Resources */,
