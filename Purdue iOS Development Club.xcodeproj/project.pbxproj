@@ -14,6 +14,10 @@
 		C7A2CAC11E5E526D00981D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A2CABF1E5E526D00981D77 /* LaunchScreen.storyboard */; };
 		C7A2CAC91E5E52E600981D77 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A2CAC81E5E52E600981D77 /* Home.storyboard */; };
 		C7A2CAD11E5E551C00981D77 /* Directory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A2CAD01E5E551C00981D77 /* Directory.storyboard */; };
+		C7A2CAD31E5E572300981D77 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A2CAD21E5E572300981D77 /* LoginViewController.swift */; };
+		C7A2CAD51E5E585E00981D77 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A2CAD41E5E585E00981D77 /* RegistrationViewController.swift */; };
+		C7A2CAD71E5E599E00981D77 /* OptionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A2CAD61E5E599E00981D77 /* OptionalViewController.swift */; };
+		C7A2CADA1E5E5AB400981D77 /* Events.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A2CAD91E5E5AB400981D77 /* Events.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		C7A2CAC21E5E526D00981D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7A2CAC81E5E52E600981D77 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		C7A2CAD01E5E551C00981D77 /* Directory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Directory.storyboard; sourceTree = "<group>"; };
+		C7A2CAD21E5E572300981D77 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C7A2CAD41E5E585E00981D77 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		C7A2CAD61E5E599E00981D77 /* OptionalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalViewController.swift; sourceTree = "<group>"; };
+		C7A2CAD91E5E5AB400981D77 /* Events.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Events.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		C7A2CAB51E5E526D00981D77 /* Purdue iOS Development Club */ = {
 			isa = PBXGroup;
 			children = (
+				C7A2CAD81E5E5A9700981D77 /* Events */,
 				C7A2CACF1E5E551000981D77 /* Directory */,
 				C7A2CACB1E5E536500981D77 /* Home */,
 				C7A2CACA1E5E535C00981D77 /* Login */,
@@ -73,10 +82,10 @@
 		C7A2CACA1E5E535C00981D77 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				C7A2CACE1E5E543B00981D77 /* Controller */,
-				C7A2CACD1E5E543200981D77 /* Moddel */,
-				C7A2CACC1E5E542900981D77 /* VIews */,
 				C7A2CABA1E5E526D00981D77 /* Login.storyboard */,
+				C7A2CAD21E5E572300981D77 /* LoginViewController.swift */,
+				C7A2CAD41E5E585E00981D77 /* RegistrationViewController.swift */,
+				C7A2CAD61E5E599E00981D77 /* OptionalViewController.swift */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -89,33 +98,20 @@
 			name = Home;
 			sourceTree = "<group>";
 		};
-		C7A2CACC1E5E542900981D77 /* VIews */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = VIews;
-			sourceTree = "<group>";
-		};
-		C7A2CACD1E5E543200981D77 /* Moddel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Moddel;
-			sourceTree = "<group>";
-		};
-		C7A2CACE1E5E543B00981D77 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
 		C7A2CACF1E5E551000981D77 /* Directory */ = {
 			isa = PBXGroup;
 			children = (
 				C7A2CAD01E5E551C00981D77 /* Directory.storyboard */,
 			);
 			name = Directory;
+			sourceTree = "<group>";
+		};
+		C7A2CAD81E5E5A9700981D77 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				C7A2CAD91E5E5AB400981D77 /* Events.storyboard */,
+			);
+			name = Events;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +179,7 @@
 				C7A2CABE1E5E526D00981D77 /* Assets.xcassets in Resources */,
 				C7A2CABC1E5E526D00981D77 /* Login.storyboard in Resources */,
 				C7A2CAC91E5E52E600981D77 /* Home.storyboard in Resources */,
+				C7A2CADA1E5E5AB400981D77 /* Events.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +190,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A2CAD31E5E572300981D77 /* LoginViewController.swift in Sources */,
+				C7A2CAD71E5E599E00981D77 /* OptionalViewController.swift in Sources */,
 				C7A2CAB91E5E526D00981D77 /* ViewController.swift in Sources */,
+				C7A2CAD51E5E585E00981D77 /* RegistrationViewController.swift in Sources */,
 				C7A2CAB71E5E526D00981D77 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
